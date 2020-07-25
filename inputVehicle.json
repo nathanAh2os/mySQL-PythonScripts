@@ -1,0 +1,17 @@
+[
+    {
+        "carID": "101",
+        "make": "BMW",
+        "model": "335i 2007"
+    },
+    {
+        "carID": "102",
+        "make": "Buggatti",
+        "model": "Veyron EB 16.4"
+    },
+    {
+        "carID": "103",
+        "make": "Tesla",
+        "model": "Roadster 2011"
+    }
+]
