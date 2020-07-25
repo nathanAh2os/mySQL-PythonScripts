@@ -1,8 +1,15 @@
 import pymysql
 import json
 import os
+import fileinput
+import sys
 
 # This script assumes that the appropritate schema for mySQL has been set up/populated and is running
+
+# The fileinput module allows filenames to be read from the command line, for now we will print
+import fileinput
+for line in fileinput.input(sys.argv[1:]):
+    print(line)
 
 # Connection to mySQL, default logins here
 mydb = pymysql.connect(host='localhost', user='root',
